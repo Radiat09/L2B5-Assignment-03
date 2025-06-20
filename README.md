@@ -155,9 +155,8 @@ cp .env.example .env
 4. Configure environment variables in .env:
 
 ```text
-PORT=3000
-MONGODB_URI=mongodb://localhost:27017/library_db
-JWT_SECRET=your_jwt_secret_here
+DB_USER= YourDBUsername
+DB_PASS= YourDBPassword
 ```
 
 ### Running the Application
