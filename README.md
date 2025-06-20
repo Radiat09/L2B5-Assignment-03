@@ -23,19 +23,19 @@ A robust REST API for library management systems with features for book inventor
 
 | Method | Endpoint         | Description             | Auth Required |
 | ------ | ---------------- | ----------------------- | ------------- |
-| POST   | `/api/books`     | Add a new book          | Yes           |
+| POST   | `/api/books`     | Add a new book          | No            |
 | GET    | `/api/books`     | List all books          | No            |
 | GET    | `/api/books/:id` | Get book details        | No            |
-| PUT    | `/api/books/:id` | Update book information | Yes           |
-| DELETE | `/api/books/:id` | Remove a book           | Yes           |
+| PUT    | `/api/books/:id` | Update book information | No            |
+| DELETE | `/api/books/:id` | Remove a book           | No            |
 
 ### Borrowing
 
 | Method | Endpoint              | Description             | Auth Required |
 | ------ | --------------------- | ----------------------- | ------------- |
-| POST   | `/api/borrow`         | Borrow a book           | Yes           |
-| GET    | `/api/borrow`         | List all borrowed books | Yes           |
-| GET    | `/api/borrow/summary` | Borrowing summary       | Yes           |
+| POST   | `/api/borrow`         | Borrow a book           | No            |
+| GET    | `/api/borrow`         | List all borrowed books | No            |
+| GET    | `/api/borrow/summary` | Borrowing summary       | No            |
 
 ## Request/Response Examples
 
