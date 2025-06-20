@@ -188,12 +188,23 @@ npm test
 ### Books Collection
 
 ```typescript
-{
-  title: string,
-  author: string,
-  isbn: string,  // unique
-  copies: number,
-  available: boolean
+export enum BookGenre {
+  FICTION = "FICTION",
+  NON_FICTION = "NON_FICTION",
+  SCIENCE = "SCIENCE",
+  HISTORY = "HISTORY",
+  BIOGRAPHY = "BIOGRAPHY",
+  FANTASY = "FANTASY",
+}
+
+export interface IBook {
+  title: string;
+  author: string;
+  genre: BookGenre;
+  isbn: string;
+  description?: string;
+  copies: number;
+  available?: boolean;
 }
 ```
 
@@ -202,10 +213,8 @@ npm test
 ```typescript
 {
   book: ObjectId,  // ref: 'Book'
-  user: ObjectId,  // ref: 'User'
   quantity: number,
   dueDate: Date,
-  returned: boolean
 }
 ```
 
