@@ -5,7 +5,7 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-6.0+-green)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue)
 
-A robust REST API for library management systems with features for book inventory, borrowing, and user management.
+A robust REST API for library management systems with features for book inventory and borrowing management.
 
 ## Features
 
