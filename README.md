@@ -1,4 +1,4 @@
-# Library Management API
+# Library Management API with Express, TypeScript & MongoDB
 
 ![Node.js](https://img.shields.io/badge/Node.js-18+-green)
 ![Express](https://img.shields.io/badge/Express-4.x-blue)
