@@ -58,8 +58,6 @@ const bookSchema = new Schema<IBook, BookModel, BookInstanceMethods>(
   {
     versionKey: false,
     timestamps: true,
-    toJSON: { virtuals: true },
-    toObject: { virtuals: true },
   }
 );
 

@@ -28,8 +28,6 @@ const borrowSchema = new Schema<IBorrow>(
   {
     versionKey: false,
     timestamps: true,
-    toJSON: { virtuals: true },
-    toObject: { virtuals: true },
   }
 );
 
