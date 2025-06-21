@@ -31,11 +31,10 @@ A robust REST API for library management systems with features for book inventor
 
 ### Borrowing
 
-| Method | Endpoint              | Description             | Auth Required |
-| ------ | --------------------- | ----------------------- | ------------- |
-| POST   | `/api/borrow`         | Borrow a book           | No            |
-| GET    | `/api/borrow`         | List all borrowed books | No            |
-| GET    | `/api/borrow/summary` | Borrowing summary       | No            |
+| Method | Endpoint              | Description       | Auth Required |
+| ------ | --------------------- | ----------------- | ------------- |
+| POST   | `/api/borrow`         | Borrow a book     | No            |
+| GET    | `/api/borrow/summary` | Borrowing summary | No            |
 
 ## Request/Response Examples
 
